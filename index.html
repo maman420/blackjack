@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>blackjack</title>
+    </head>
+    <body>
+        <div>
+            <img src="dealerit_ccexpress.png" height="260px">
+            <h2 id="message-el">want to play a round of blackjack?</h2>
+            <p id="dealer-el">Dealer cards:</p>
+            <p id="card-el">Cards:</p>
+            <p id="sum-el">Sum:</p>
+            <button id="start-el" onclick="display()">start game</button><br>
+            <button id="newcard-el" onclick="newcard()">new card</button>
+            <button id="hold-el" onclick="hold()">hold</button><br>
+            <button onclick="newgame()">new game</button>
+            <p id="money-el"></p>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
